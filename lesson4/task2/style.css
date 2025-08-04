@@ -1,11 +1,11 @@
-body {
+.body1 {
     font-size: 24px;
 }
 
-p {
+.p1 {
     color: green;
 }
 
-li {
+.li1 {
     color: orange;
 }

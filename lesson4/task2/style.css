@@ -1,11 +1,11 @@
-.big-text {
+body {
     font-size: 24px;
 }
 
-.green-text {
+p {
     color: green;
 }
 
-.orange-text {
+li {
     color: orange;
 }

@@ -15,8 +15,10 @@ p:first-of-type::selection {
 
 a::before {
     content: ">";
+    color: green;
 }
 
 a::after {
     content: "<";
+    color: green;
 }

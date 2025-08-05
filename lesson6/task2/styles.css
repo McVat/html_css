@@ -1,15 +1,17 @@
-[data-description="anchors"] {
-    background-color: grey;
+li {
+    margin-bottom: 16px;
 }
 
-[data-description] {
-    font-size: 24px;
+ol li {
+    background-color: green;
+    color: white;
 }
 
-a[href][target] {
-    color: green;
-}
-
-input[type="text"] {
+ul li {
     background-color: orange;
+    color: white;
+}
+
+li span:contains("Antarctica") {
+    border: 3px solid red;
 }

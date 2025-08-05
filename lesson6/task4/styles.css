@@ -8,7 +8,12 @@
     color: green;
 }
 
-.to-be-learned>code {
+.already-learned code {
+    background-color: orange;
+    color: green;
+}
+
+.to-be-learned code {
     background-color: green;
 }
 

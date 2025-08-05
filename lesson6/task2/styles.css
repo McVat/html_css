@@ -12,6 +12,10 @@ ul li {
     color: white;
 }
 
-li span:contains("Antarctica") {
+#special+li {
     border: 3px solid red;
+}
+
+#special~li {
+    margin-left: 16px;
 }

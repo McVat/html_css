@@ -1,23 +1,22 @@
-img[alt="Pollution"] {
-    border: 5px dashed red;
+p:first-of-type::first-letter {
+    font-size: 36px;
+    color: orange;
+    margin-left: 16px;
 }
 
-img[src$=".jpg"] {
-    margin-left: 50px;
-}
-
-li[data-description~="even"] {
-    background-color: grey;
-}
-
-li[data-description*="even"] {
+p:first-of-type::first-line {
     font-size: 24px;
 }
 
-a[href^="https://"] {
-    color: green;
+p:first-of-type::selection {
+    color: white;
+    background-color: red;
 }
 
-span[lang*="en"] {
-    font-size: 28px;
+a::before {
+    content: ">";
+}
+
+a::after {
+    content: "<";
 }

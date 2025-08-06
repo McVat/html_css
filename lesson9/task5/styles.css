@@ -1,21 +1,67 @@
-div {
-    border: 2px solid black;
-    padding: 50px;
+.header {
+    background-color: darkturquoise;
+    height: 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
 }
 
-.rectangle1 {
-    margin: 50px;
-    background-color: blue;
+.navigation {
+    height: 40px;
 }
 
-.rectangle2 {
-    background-color: yellow;
+.nav-item {
+    display: inline-block;
+    margin-left: 16px;
+    color: white;
 }
 
-.rectangle3 {
-    background-color: green;
+.content {
+    background-color: beige;
+    height: 5000px;
+    position: relative;
 }
 
-.rectangle4 {
-    background-color: pink;
+.head {
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    margin: 0 auto;
+    top: 400px;
+    position: relative;
+}
+
+.ear {
+    width: 40px;
+    height: 60px;
+    background-color: brown;
+    position: absolute;
+    top: -60px;
+}
+
+.ear_right {
+    left: 100%;
+}
+
+.ear_left {
+    right: 100%;
+}
+
+.eye {
+    width: 30px;
+    height: 30px;
+    background-color: grey;
+    border-radius: 50%;
+    position: absolute;
+    top: 80px;
+}
+
+.eye_right {
+    right: 40px;
+}
+
+.eye_left {
+    left: 40px;
 }

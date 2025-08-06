@@ -1,24 +1,5 @@
-p:first-of-type::first-letter {
-    font-size: 36px;
-    color: orange;
-    margin-left: 16px;
-}
-
-p:first-of-type::first-line {
-    font-size: 24px;
-}
-
-p:first-of-type::selection {
-    color: white;
-    background-color: red;
-}
-
-a::before {
-    content: ">";
-    color: green;
-}
-
-a::after {
-    content: "<";
-    color: green;
+div {
+    border: 3px solid black;
+    background-color: aqua;
+    padding: 50px;
 }

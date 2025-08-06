@@ -12,11 +12,10 @@
     line-height: 0.5;
 }
 
-.nav-list {
-    height: 40px;
-}
+.nav-list {}
 
 .nav-item {
+    height: 40px;
     display: inline-block;
     margin-left: 16px;
     color: white;

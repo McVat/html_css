@@ -9,6 +9,10 @@
 }
 
 .navigation {
+    line-height: 0.5;
+}
+
+.nav-list {
     height: 40px;
 }
 

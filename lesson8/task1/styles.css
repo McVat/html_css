@@ -15,7 +15,7 @@ body {
 .rectangle {
     margin: 16px;
     padding: 16px;
-    border: 8 px soled black;
+    border: 8 px solid black;
     width: 512px;
     height: 128px;
 }

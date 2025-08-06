@@ -38,7 +38,7 @@
     height: 200px;
     background-color: aquamarine;
     position: absolute;
-    top: 80px;
+    top: 110px;
     left: calc(50% - 100px);
 }
 
@@ -50,13 +50,13 @@
 }
 
 .ear_right {
-    top: -40px;
-    right: 0;
+    top: -60px;
+    right: -40px;
 }
 
 .ear_left {
-    top: -40px;
-    left: 0;
+    top: -60px;
+    left: -40px;
 }
 
 .eye {

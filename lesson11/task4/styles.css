@@ -1,29 +1,32 @@
-.block {
-    height: 300px;
-    flex-grow: 1;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.block_red {
-    background-color: red;
+.text {
+    margin: 16px;
+    text-decoration: underline dotted black 1px;
+    display: inline-block;
+    position: relative;
 }
 
-.block_green {
-    background-color: green;
+.tooltip {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s;
+    position: absolute;
+    bottom: -40px;
+    left: 0;
+    background-color: grey;
+    color: white;
+    border-radius: 4px;
+    padding: 8px;
+    white-space: nowrap;
+    z-index: 1;
 }
 
-.block_blue {
-    background-color: blue;
-}
-
-.block_yellow {
-    background-color: yellow;
-}
-
-.block_black {
-    background-color: black;
-}
-
-body {
-    display: flex;
-    justify-content: space-around;
+.text:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
 }

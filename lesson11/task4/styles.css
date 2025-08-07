@@ -6,15 +6,14 @@
 
 .text {
     margin: 16px;
-    text-decoration: underline dotted black 1px;
+    border-bottom: 1px dotted black;
     display: inline-block;
     position: relative;
 }
 
 .tooltip {
-    visibility: hidden;
+    display: none;
     opacity: 0;
-    transition: opacity 0.3s;
     position: absolute;
     bottom: -40px;
     left: 0;
@@ -27,6 +26,6 @@
 }
 
 .text:hover .tooltip {
-    visibility: visible;
+    display: block;
     opacity: 1;
 }

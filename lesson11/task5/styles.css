@@ -1,20 +1,10 @@
-* {
-    box-sizing: border-box;
-}
-
-header {
-    text-align: center;
-}
-
-.article {
-    margin: 8px;
-    padding: 16px;
-    background-color: bisque;
-    flex-basis: 300px;
-    flex-grow: 1;
-}
-
-.articles-list {
+.gallery {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow-x: auto;
+    cursor: all-scroll;
+}
+
+.thumb {
+    margin: 8px;
 }

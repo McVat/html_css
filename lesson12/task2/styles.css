@@ -3,6 +3,7 @@ html {
 }
 
 h1 {
+    margin: auto;
     font-size: 74px;
     text-align: center;
     overflow: hidden;

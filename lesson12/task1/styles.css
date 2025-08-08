@@ -23,6 +23,9 @@ span {
 }
 
 a {
-    color: grey;
     text-decoration: none;
+}
+
+em {
+    color: grey;
 }

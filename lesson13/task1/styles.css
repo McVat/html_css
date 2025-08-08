@@ -1,7 +1,12 @@
+* {
+    box-sizing: border-box;
+}
+
 div {
     width: 300px;
     height: 500px;
     background-image: url(nature.jpeg);
+    background-color: red;
     background-position: center;
     background-size: cover;
     font-size: 32px;
@@ -9,5 +14,5 @@ div {
     color: white;
     padding-top: 32px;
     text-align: center;
-    box-sizing: border-box;
+    background-repeat: no-repeat;
 }

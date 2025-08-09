@@ -1,5 +1,4 @@
 .image {
-    padding: 0;
     width: 200px;
     height: 200px;
     background-size: contain;
@@ -10,4 +9,10 @@
     background-clip: border-box;
     display: inline-block;
     box-sizing: border-box;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
 }

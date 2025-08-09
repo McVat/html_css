@@ -1,15 +1,12 @@
 .image {
-    width: 200px;
-    height: 200px;
+    padding: 0;
+    width: 201px;
+    height: 201px;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     border: 1px dotted grey;
     margin: 16px;
     background-clip: border-box;
-}
-
-.gallery {
-    display: flex;
-    justify-content: space-around;
+    display: inline-block;
 }

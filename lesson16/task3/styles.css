@@ -1,11 +1,22 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.checkbox {
+    position: relative;
+    padding-left: 35px;
+    font-size: 24px;
 }
 
-video {
-    display: block;
-    width: 500px;
-    margin: 200px auto 0;
+.checkbox input[type="checkbox"] {
+    display: none;
+}
+
+.checkmark {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 25px;
+    height: 25px;
+    background-color: #d3d3d3;
+}
+
+.checkbox input[type="checkbox"]:checked+.checkmark {
+    background-color: #006400;
 }

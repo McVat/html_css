@@ -4,6 +4,7 @@
     font-size: 24px;
     margin: 16px;
     display: inline-block;
+    width: 120px;
 }
 
 .checkbox input[type="checkbox"] {

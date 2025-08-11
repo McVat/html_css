@@ -1,0 +1,71 @@
+/* 1. Нормализация стилей */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+/* 2. Контейнер с большой картинкой */
+
+.image-container {
+    margin: 50px auto;
+    text-align: center;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+
+/* 3. Галерея карточек */
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin: 16px;
+    box-shadow: 0px 7px 18px -8px rgba(0, 0, 0, 0.75);
+}
+
+figure {
+    margin: 0;
+    text-align: center;
+}
+
+figcaption {
+    height: 30px;
+    line-height: 30px;
+    text-transform: lowercase;
+}
+
+.card img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Фильтры */
+
+.filter-opacity {
+    filter: opacity(50%);
+}
+
+.filter-blur {
+    filter: blur(4px);
+}
+
+.filter-invert {
+    filter: invert(100%);
+}

@@ -36,13 +36,11 @@ figure {
 }
 
 figcaption {
-    height: 30px;
     line-height: 30px;
     text-transform: lowercase;
 }
 
 .card img {
-    display: block;
     max-width: 100%;
     height: auto;
 }

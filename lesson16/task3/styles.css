@@ -1,3 +1,7 @@
+body {
+    margin: 16px;
+}
+
 .checkbox {
     position: relative;
     padding-left: 35px;

@@ -2,18 +2,58 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <title>Images</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI=" crossorigin="anonymous" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Example</title>
     <link rel="stylesheet" href="styles.css">
-
 </head>
 
 <body>
-    <div class="image-container">
-        <img class="image" src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/hw1/big.jpeg" alt="Forest" />
-        <span class="image-button">Later I'll do something</span>
-    </div>
-</body>
+    <form>
+        <div class="form-control">
+            <label for="last-name">Last Name</label>
+            <input type="text" id="last-name" name="lastName" value="Emerson" readonly>
+        </div>
 
-</html>
+        <div class="form-control">
+            <label for="age">Age</label>
+            <input type="number" name="age" id="age" value="17" min="3" max="10">
+        </div>
+
+        <div class="form-control">
+            <label>
+                <input type="checkbox" name="agree" disabled>
+                Accept terms and conditions
+            </label>
+        </div>
+
+        <div class="form-control choose-gender">
+            <div>
+                <label>
+                    <input type="radio" name="gender" value="Male">
+                    Male
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="gender" value="Female">
+                    Female
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="gender" value="Secret">
+                    Secret
+                </label>
+            </div>
+        </div>
+
+        <div class="form-control">
+            <textarea name="description" placeholder="Write description..."></textarea>
+        </div>
+
+        <div class="form-control">
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</body>

@@ -1,11 +1,11 @@
-div {
-    margin: 100px;
-    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+13/task2/sprites.png);
-    width: 100px;
-    height: 100px;
-    background-position-x: -200px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-div:hover {
-    background-position-y: -100px;
+video {
+    display: block;
+    width: 500px;
+    margin: 200px auto 0;
 }

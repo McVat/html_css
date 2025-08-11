@@ -4,11 +4,12 @@
     font-size: 24px;
     margin: 16px;
     display: inline-block;
-    width: 120px;
+    width: 125spx;
 }
 
 .checkbox input[type="checkbox"] {
     display: none;
+    visibility: hidden;
     width: 0;
     height: 0;
 }

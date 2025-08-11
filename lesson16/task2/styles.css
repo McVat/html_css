@@ -7,6 +7,6 @@
     margin: 0;
 }
 
-label[for="last-name"] {
+#last-name {
     display: block;
 }

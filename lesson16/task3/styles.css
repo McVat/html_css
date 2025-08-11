@@ -3,8 +3,7 @@
     padding-left: 35px;
     font-size: 24px;
     margin: 16px;
-    display: block;
-    width: 105px;
+    display: inline-block;
 }
 
 .checkbox input[type="checkbox"] {

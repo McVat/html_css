@@ -2,20 +2,21 @@
     position: relative;
     padding-left: 35px;
     font-size: 24px;
-    top: 16px;
-    margin: 16px;
 }
 
 .checkbox input[type="checkbox"] {
     display: none;
+    width: 0;
+    height: 0;
 }
 
 .checkmark {
     position: absolute;
-    left: 0;
-    top: 0;
     width: 25px;
     height: 25px;
+    top: 0;
+    left: 0;
+    display: inline-block;
     background-color: #d3d3d3;
 }
 

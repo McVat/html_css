@@ -18,7 +18,6 @@ button {
 #css,
 #js {
     display: inline-block !important;
-    box-sizing: border-box;
 }
 
 .languages {

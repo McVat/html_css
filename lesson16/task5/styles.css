@@ -19,7 +19,3 @@ button {
 #js {
     display: inline-block !important;
 }
-
-input[type="checkbox"] {
-    margin: 8px;
-}

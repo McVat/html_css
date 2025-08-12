@@ -8,13 +8,16 @@ select,
 button {
     display: block;
     margin-bottom: 8px;
-    box-sizing: border-box;
+}
+
+#html,
+#css,
+#js {
+    display: inline-block !important;
 }
 
 .languages {
     margin-bottom: 8px;
 }
 
-button {
-    box-sizing: border-box;
-}
+button {}

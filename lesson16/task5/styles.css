@@ -7,7 +7,7 @@ textarea,
 select,
 button {
     display: block;
-    margin-bottom: 8px;
+    margin: 8px;
 }
 
 #html,
@@ -17,7 +17,7 @@ button {
 }
 
 .languages {
-    margin-bottom: 8px;
+    margin: 8px;
 }
 
 button {}

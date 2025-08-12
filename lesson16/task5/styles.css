@@ -21,6 +21,5 @@ button {
 }
 
 input[type="checkbox"] {
-    margin-bottom: 8px;
-    line-height: 2;
+    margin: 16px 8px;
 }

@@ -20,6 +20,7 @@ button {
     display: inline-block !important;
 }
 
-.languages {
-    margin: 8px;
+input[type="checkbox"] {
+    margin-bottom: 8px;
+    line-height: 1;
 }

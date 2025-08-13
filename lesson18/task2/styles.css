@@ -17,22 +17,25 @@
 }
 
 .btn:hover {
-    background-color: darkcyan;
+    color: darkcyan;
 }
 
 
 /* Bird button */
 
-.bird-btn .bird-icon {
+.bird-icon {
     width: 32px;
     height: 32px;
     vertical-align: middle;
     fill: white;
-    margin-right: 8px;
 }
 
 .bird-btn:hover .bird-icon {
     fill: green;
+}
+
+.bird-btn:hover .fas {
+    fill: darkcyan;
 }
 
 

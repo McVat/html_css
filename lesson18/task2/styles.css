@@ -27,7 +27,9 @@
     fill: white;
 }
 
-.bird-btn:hover .bird-icon {}
+.bird-icon:hover {
+    fill: green;
+}
 
 .bird-btn:hover .fas {
     fill: darkcyan;

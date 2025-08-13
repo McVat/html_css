@@ -1,12 +1,35 @@
-.form-control {
+table {
+    width: 500px;
     margin: 16px;
+    border-collapse: collapse;
+    box-sizing: border-box;
 }
 
-.choose-gender div {
-    display: inline-block;
-    margin: 0;
-}
-
-#last-name {
+div {
+    overflow-x: scroll;
+    overflow: hidden;
     display: block;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 4px;
+    text-align: right;
+    height: 40px;
+    padding: 4px;
+}
+
+tbody>tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+tbody>tr:hover {
+    color: white;
+    background-color: #aaa;
+}
+
+thead {
+    background-color: aqua;
+    font-weight: 700;
 }

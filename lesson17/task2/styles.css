@@ -5,6 +5,10 @@ table {
     box-sizing: border-box;
 }
 
+caption {
+    margin-bottom: 8px;
+}
+
 div {
     overflow-x: scroll;
     overflow: hidden;
@@ -16,7 +20,7 @@ td {
     border: 1px solid black;
     padding: 4px;
     text-align: right;
-    line-height: 40px;
+    line-height: 30px;
     padding: 4px;
 }
 
@@ -31,5 +35,8 @@ tbody>tr:hover {
 
 thead {
     background-color: aqua;
+}
+
+tfoot {
     font-weight: 700;
 }

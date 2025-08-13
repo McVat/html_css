@@ -25,18 +25,38 @@
 
 </head>
 
+<style>
+    @keyframes moving {
+        from {
+            left: 0;
+            opacity: 1;
+        }
+        to {
+            left: 70px;
+        }
+    }
+    
+    @keyframes blinking {
+        0% {
+            opacity: 0;
+        }
+        50% {
+            opacity: 1;
+        }
+        100% {
+            opacity: 0;
+        }
+    }
+</style>
+</head>
+
 <body>
-
-    <div class="icon-container">
-        <i class="fa fa-battery-full" style="font-size: 16px;"></i>
-        <i class="fa fa-battery-three-quarters" style="font-size: 32px;"></i>
-        <i class="fa fa-battery-half" style="font-size: 64px;"></i>
-        <i class="fa fa-battery-quarter" style="font-size: 128px;"></i>
-        <i class="fa fa-battery-empty" style="font-size: 256px;"></i>
+    <div class="container">
+        <div class="spinner">
+            <span class="spinner-text">Loading...</span>
+            <div class="rect"></div>
+        </div>
     </div>
-
 </body>
-
-</html>
 
 </html>

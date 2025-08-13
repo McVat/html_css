@@ -3,7 +3,7 @@
     height: 100px;
     background-color: coral;
     position: absolute;
-    animation: move 8s infinite alternate;
+    animation: move 8s alternate;
     top: 0;
     left: 0;
 }

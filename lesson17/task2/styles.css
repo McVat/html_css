@@ -1,0 +1,12 @@
+.form-control {
+    margin: 16px;
+}
+
+.choose-gender div {
+    display: inline-block;
+    margin: 0;
+}
+
+#last-name {
+    display: block;
+}

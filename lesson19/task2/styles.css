@@ -2,7 +2,7 @@
     width: 100px;
     height: 100px;
     background-color: coral;
-    position: relative;
+    position: absolute;
     animation: move 8s infinite alternate;
 }
 

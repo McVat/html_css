@@ -20,9 +20,6 @@
     color: darkcyan;
 }
 
-
-/* Bird button */
-
 .bird-icon {
     width: 32px;
     height: 32px;
@@ -30,17 +27,8 @@
     fill: white;
 }
 
-.bird-btn:hover .bird-icon {
-    fill: green;
-}
+.bird-btn:hover .bird-icon {}
 
 .bird-btn:hover .fas {
     fill: darkcyan;
-}
-
-
-/* Account button */
-
-.account-btn i {
-    margin-right: 8px;
 }

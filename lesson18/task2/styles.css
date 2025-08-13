@@ -1,42 +1,43 @@
-table {
-    width: 500px;
-    margin: 16px;
-    border-collapse: collapse;
-    box-sizing: border-box;
-}
-
-caption {
-    margin-bottom: 8px;
-}
-
-div {
-    overflow-x: scroll;
-    overflow: hidden;
-    display: block;
-}
-
-th,
-td {
-    border: 1px solid black;
-    padding: 4px;
-    text-align: right;
-    line-height: 31px;
-    padding: 4px;
-}
-
-tbody>tr:nth-child(odd) {
-    background-color: #f2f2f2;
-}
-
-tbody>tr:hover {
+.btn {
+    width: 200px;
+    height: 50px;
+    margin: 64px;
+    background-color: coral;
     color: white;
-    background-color: #aaa;
-}
-
-thead {
-    background-color: aqua;
-}
-
-tfoot {
+    border-radius: 4px;
+    font-family: 'Courier New', Courier, monospace;
     font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.btn:hover {
+    background-color: darkcyan;
+}
+
+
+/* Bird button */
+
+.bird-btn .bird-icon {
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+    fill: white;
+    margin-right: 8px;
+}
+
+.bird-btn:hover .bird-icon {
+    fill: green;
+}
+
+
+/* Account button */
+
+.account-btn i {
+    margin-right: 8px;
 }

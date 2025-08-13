@@ -1,24 +1,7 @@
-* {
-    box-sizing: border-box;
-    border-collapse: collapse;
-}
-
-td {
-    height: 50px;
-    width: 50px;
-    text-align: center;
-}
-
-tr:not(:first-child):not(:last-child) td:empty {
-    border: 1px solid black;
-}
-
-table {
-    margin: 16px;
-    border: 1px solid black;
-}
-
-table tr:not(:first-child):not(:last-child):nth-child(even) td:not(:first-child):not(:last-child):nth-child(odd),
-table tr:not(:first-child):not(:last-child):nth-child(odd) td:not(:first-child):not(:last-child):nth-child(even) {
-    background-color: blacK;
+.icon-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 50px;
 }

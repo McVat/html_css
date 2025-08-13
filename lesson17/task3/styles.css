@@ -9,7 +9,7 @@ td {
     text-align: center;
 }
 
-td:empty {
+tr:not(:first-child):not(:last-child) td:empty {
     border: 1px solid black;
 }
 

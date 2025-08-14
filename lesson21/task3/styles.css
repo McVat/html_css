@@ -19,9 +19,7 @@ body {
 .header {
     color: white;
     text-align: center;
-    background: linear-gradient(90deg, red, orange);
-    padding: 1em;
-    font-size: 1.5em;
+    background: linear-gradient(60deg, red, orange);
 }
 
 .main {
@@ -41,7 +39,8 @@ body {
 }
 
 .nav-list-item {
-    margin-bottom: 0.25em;
+    margin-bottom: 0.5em;
+    line-height: 2em;
 }
 
 .nav-list-link {
@@ -49,7 +48,7 @@ body {
     background: #888888;
     color: white;
     text-decoration: none;
-    padding: 0.2em 0.5em;
+    padding: 0em 0.5em;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;

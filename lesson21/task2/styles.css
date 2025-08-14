@@ -1,37 +1,51 @@
-.square {
-    width: 100px;
-    height: 100px;
-    background-color: coral;
-    position: absolute;
-    animation: move 8s alternate;
-    top: 0;
-    left: 0;
+* {
+    box-sizing: border-box;
 }
 
-@keyframes move {
-    0% {
-        top: 0;
-        left: 0;
-        background-color: coral;
-    }
-    25% {
-        top: 0;
-        left: 300px;
-        background-color: cornflowerblue;
-    }
-    50% {
-        top: 300px;
-        left: 300px;
-        background-color: aqua;
-    }
-    75% {
-        top: 300px;
-        left: 0;
-        background-color: yellowgreen;
-    }
-    100% {
-        top: 0;
-        left: 0;
-        background-color: coral;
-    }
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.content {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+
+/* 3. Галерея */
+
+.gallery {
+    background-color: #fa5;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ideas {
+    background-color: #5af;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.75);
+}
+
+.idea {
+    color: #fff;
+    text-transform: uppercase;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 4px;
+    text-align: center;
+    word-break: break-word;
 }

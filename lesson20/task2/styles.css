@@ -1,37 +1,43 @@
-.square {
-    width: 100px;
-    height: 100px;
-    background-color: coral;
-    position: absolute;
-    animation: move 8s alternate;
-    top: 0;
-    left: 0;
+.fancy-button {
+    width: 150px;
+    height: 50px;
+    border-radius: 4px;
+    background: linear-gradient(45deg, yellow, red);
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    animation: bounce 0.4s ease-in-out, rotate 0.5s ease-in-out 0.4s, moveAway 1s linear 2s forwards;
 }
 
-@keyframes move {
+@keyframes bounce {
     0% {
-        top: 0;
-        left: 0;
-        background-color: coral;
-    }
-    25% {
-        top: 0;
-        left: 300px;
-        background-color: cornflowerblue;
+        transform: translateY(0);
     }
     50% {
-        top: 300px;
-        left: 300px;
-        background-color: aqua;
-    }
-    75% {
-        top: 300px;
-        left: 0;
-        background-color: yellowgreen;
+        transform: translateY(-40px);
     }
     100% {
-        top: 0;
-        left: 0;
-        background-color: coral;
+        transform: translateY(0);
+    }
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes moveAway {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(2000px);
     }
 }

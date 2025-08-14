@@ -1,6 +1,6 @@
 body {
     display: flex;
-    width: 100vh;
+    height: 100vh;
 }
 
 .fancy-button {

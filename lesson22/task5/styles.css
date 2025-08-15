@@ -98,8 +98,7 @@ body {
     background: #e5e5e5;
     display: flex;
     justify-content: center;
-    align-items: center;
-    line-height: 30px;
+    line-height: 28px;
     position: fixed;
     bottom: 0;
     left: 0;

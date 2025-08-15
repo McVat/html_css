@@ -22,10 +22,7 @@ body {
     background: linear-gradient(60deg, red, orange);
 }
 
-
-/* Зображення з тінню */
-
-.hero img {
+.pic img {
     width: 100%;
     height: auto;
     box-shadow: 4px 8px 8px rgba(0, 0, 0, 0.2);
@@ -35,11 +32,10 @@ body {
     display: flex;
     flex: 1;
     flex-wrap: wrap;
-    /* додано для адаптації */
 }
 
 .navigation {
-    padding: 0.5em;
+    padding: 0.7em 0.5em;
     width: 20%;
 }
 
@@ -60,7 +56,7 @@ body {
 
 .nav-list-link {
     display: block;
-    background: #888888;
+    background: grey;
     color: white;
     text-decoration: none;
     padding: 0em 0.5em;
@@ -108,12 +104,6 @@ body {
     width: 100%;
 }
 
-
-/* ===== Медіазапити ===== */
-
-
-/* До 600px */
-
 @media (max-width: 600px) {
     .navigation,
     .section,
@@ -121,9 +111,6 @@ body {
         width: 100%;
     }
 }
-
-
-/* 600px–1200px */
 
 @media (min-width: 601px) and (max-width: 1199px) {
     .navigation {
@@ -136,9 +123,6 @@ body {
         width: 100%;
     }
 }
-
-
-/* Від 1200px */
 
 @media (min-width: 1200px) {
     .navigation {

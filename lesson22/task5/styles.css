@@ -31,7 +31,6 @@ body {
 .main {
     display: flex;
     flex-wrap: wrap;
-    flex: 1
 }
 
 .navigation {
@@ -91,13 +90,13 @@ body {
 
 .news {
     width: 20%;
-    height: 125px;
+    position: relative;
     padding: 0.5em;
     max-height: fit-content;
 }
 
-p {
-    margin: 0;
+.news p {
+    margin-bottom: 0;
 }
 
 .footer {

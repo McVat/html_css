@@ -118,9 +118,7 @@ body {
     .news {
         width: 100%;
     }
-    .pic {
-        padding-top: 0.1em;
-    }
+    .pic {}
     .section {
         margin-top: 0.8em;
     }

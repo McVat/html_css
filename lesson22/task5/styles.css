@@ -90,7 +90,7 @@ body {
 .news {
     width: 20%;
     height: 125px;
-    padding: 16px;
+    padding: 0.5em;
 }
 
 .footer {

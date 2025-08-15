@@ -118,6 +118,12 @@ body {
     .news {
         width: 100%;
     }
+    .section {
+        margin-top: 0.5em;
+    }
+    header {
+        margin-bottom: 0.5em;
+    }
     .footer {
         padding-bottom: 0.1em;
     }

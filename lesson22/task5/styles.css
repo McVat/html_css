@@ -31,6 +31,7 @@ body {
 .main {
     display: flex;
     flex-wrap: wrap;
+    flex: 1;
 }
 
 .navigation {
@@ -102,7 +103,6 @@ body {
 .footer {
     background: #e5e5e5;
     display: flex;
-    position: fixed;
     padding-top: 0.25em;
     padding-bottom: 0.15em;
     bottom: 0;

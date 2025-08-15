@@ -1,3 +1,4 @@
+@import "breakpoints.scss";
 * {
     box-sizing: border-box;
 }
@@ -7,16 +8,10 @@
     justify-content: center;
     height: 100vh;
     align-items: center;
-}
-
-@media screen and (orientation: landscape) {
-    .container {
+    @include for-landscape {
         flex-direction: row;
     }
-}
-
-@media screen and (orientation: portrait) {
-    .container {
+    @include for-portrait {
         flex-direction: column;
     }
 }
@@ -25,31 +20,16 @@
     width: 100px;
     height: 100px;
     margin: 8px;
-}
-
-@media screen and (max-width: 600px) {
-    .square {
+    @include for-small {
         background-color: #ff7f50;
     }
-}
-
-@media screen and (min-width: 600px) {
-    .square {
+    @include for-medium {
         background-color: #8a2be2;
     }
-}
-
-@media screen and (min-width: 900px) {
-    .square {
+    @include for-large {
         background-color: #a61;
     }
-}
-
-@media screen and (min-width: 1200px) {
-    .square {
+    @include for-xlarge {
         background-color: #c47;
     }
 }
-
-
-/*# sourceMappingURL=styles.css.map */

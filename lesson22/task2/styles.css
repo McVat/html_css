@@ -1,52 +1,66 @@
-* {
-    box-sizing: border-box;
-}
-
-html,
 body {
-    height: 100%;
     margin: 0;
+    font-family: Verdana, sans-serif;
 }
 
-.content {
-    display: flex;
-    height: 100%;
-    width: 100%;
+span {
+    padding: 8px;
+    background-color: #faebd7;
+    border-radius: 4px;
 }
 
-
-/* 3. Галерея */
-
-.gallery {
-    background-color: #fa5;
-    width: 80%;
+.container {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+}
+
+.block {
+    height: 200px;
+    text-transform: lowercase;
+    display: flex;
     align-items: center;
-}
-
-.ideas {
-    background-color: #5af;
-    width: 20%;
-    display: flex;
     justify-content: center;
-    align-items: center;
+    flex-grow: 1;
 }
 
-.image {
-    max-width: 100%;
-    height: auto;
-    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.75);
+.navigation {
+    background-color: #ff7f50;
 }
 
-.idea {
-    color: #fff;
-    text-transform: uppercase;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    padding: 4px;
-    text-align: center;
-    word-break: break-word;
-    font-weight: 700;
+.products {
+    background-color: #006400;
+}
+
+.news {
+    background-color: #0ff;
+    color: black;
+}
+
+@media (max-width: 599px) {
+    .container {
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 899px) {
+    .container {
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .navigation,
+    .products {
+        flex: 1 1 auto;
+    }
+    .news {
+        flex-basis: 100%;
+    }
+}
+
+@media (min-width: 900px) {
+    .container {
+        flex-direction: row;
+    }
+    .block {
+        flex-grow: 1;
+    }
 }

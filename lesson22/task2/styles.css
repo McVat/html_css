@@ -15,12 +15,12 @@ span {
 }
 
 .block {
-    height: 200px;
+    min-height: 200px;
     text-transform: lowercase;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-grow: 1;
+    flex: 1;
 }
 
 .navigation {
@@ -45,22 +45,23 @@ span {
 @media (min-width: 600px) and (max-width: 899px) {
     .container {
         flex-wrap: wrap;
-        flex-direction: row;
     }
-    .navigation,
-    .products {
-        flex: 1 1 auto;
-    }
-    .news {
-        flex-basis: 100%;
+    section {
+        display: flex;
+        flex: 2;
     }
 }
 
 @media (min-width: 900px) {
-    .container {
+    .container,
+    section {
+        display: flex;
         flex-direction: row;
     }
-    .block {
-        flex-grow: 1;
+    section {
+        flex: 2;
+    }
+    .news {
+        flex: 1;
     }
 }

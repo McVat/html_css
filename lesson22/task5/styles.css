@@ -117,6 +117,9 @@ body {
     .news {
         width: 100%;
     }
+    .footer {
+        padding-bottom: 0.2em;
+    }
 }
 
 @media (min-width: 601px) and (max-width: 1199px) {

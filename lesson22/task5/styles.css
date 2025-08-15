@@ -93,6 +93,11 @@ body {
     width: 20%;
     height: 125px;
     padding: 0.5em;
+    max-height: fit-content;
+}
+
+p {
+    margin: 0;
 }
 
 .footer {

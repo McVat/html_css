@@ -12,6 +12,7 @@ html {
 .header {
     height: 3em;
     padding: 1em;
+    margin-bottom: 0.25em;
     background-color: #eee;
     display: flex;
     align-items: center;

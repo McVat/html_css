@@ -30,13 +30,13 @@ body {
 
 .main {
     display: flex;
-    flex: 1;
     flex-wrap: wrap;
 }
 
 .navigation {
     padding: 0em 0.5em;
     width: 20%;
+    max-height: fit-content;
 }
 
 .nav-list {
@@ -69,6 +69,7 @@ body {
     padding: 0.5em;
     width: 60%;
     font-size: 1.25em;
+    max-height: fit-content;
 }
 
 .units-list li {
@@ -103,7 +104,6 @@ body {
     bottom: 0;
     left: 0;
     width: 100%;
-    line-height: 1.13;
 }
 
 @media (max-width: 600px) {

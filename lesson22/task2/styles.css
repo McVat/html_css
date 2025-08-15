@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.content {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+
+/* 3. Галерея */
+
+.gallery {
+    background-color: #fa5;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ideas {
+    background-color: #5af;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.75);
+}
+
+.idea {
+    color: #fff;
+    text-transform: uppercase;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 4px;
+    text-align: center;
+    word-break: break-word;
+    font-weight: 700;
+}

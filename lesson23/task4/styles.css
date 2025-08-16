@@ -1,82 +1,75 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+body {
+  margin: 0;
+  font-family: Verdana, sans-serif;
 }
 
-html {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+span {
+  padding: 8px;
+  background-color: #faebd7;
+  border-radius: 4px;
 }
 
-.header {
-    height: 3em;
-    padding: 1em;
-    margin-bottom: 0.5em;
-    background-color: #eee;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.container {
+  display: flex;
+  flex-direction: column;
 }
 
-.menu-btn {
-    font-size: 2em;
-    background: none;
-    border: none;
-    cursor: pointer;
-    color: black;
-}
-
-.nav-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+.block {
+  min-height: 200px;
+  text-transform: lowercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
 }
 
 .navigation {
-    padding: 0.5em;
-    width: 20%;
+  background-color: #ff7f50;
 }
 
-.nav-list-item {
-    background-color: #888888;
-    color: white;
-    height: 2em;
-    display: flex;
-    align-items: center;
-    margin-bottom: 0.5em;
-    margin-top: 0.5em;
+.products {
+  background-color: #006400;
 }
 
-.nav-list-link {
-    display: block;
-    color: white;
-    text-decoration: none;
-    padding-left: 0.5em;
-    flex: 1;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
-.nav-list-link:hover {
-    background-color: #aaa;
-}
-
-@media (min-width: 600px) {
-    .main {
-        display: flex;
-    }
-    .menu-btn {
-        display: none;
-    }
+.news {
+  background-color: #0ff;
+  color: black;
 }
 
 @media (max-width: 599px) {
-    .navigation {
-        display: none;
-    }
-    .menu-btn {
-        display: block;
-    }
+  .container {
+    flex-direction: column;
+  }
 }
+@media (min-width: 600px) and (max-width: 899px) {
+  .container {
+    flex-wrap: wrap;
+  }
+  section {
+    display: flex;
+    flex: 2;
+  }
+}
+@media (min-width: 900px) {
+  .container,
+  section {
+    display: flex;
+    flex-direction: row;
+  }
+  section {
+    flex: 2;
+  }
+  .news {
+    flex: 1;
+  }
+}
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+}
+
+/*# sourceMappingURL=styles.css.map */
